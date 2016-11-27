@@ -1,0 +1,222 @@
+body
+{
+	background: url(img/tlo.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#logo
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+#nawigacja
+{
+	background-color: #222222;
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#content
+{
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	width: 816px;
+	font-size: 25px;
+	background-color: #222222; 
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float:left;
+	width: 100px;
+	height: 40px;
+	border-right: 1px dashed #751B1B;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751B1B;
+}
+
+ol > li:hover
+{
+	background-color: #000000;
+}
+
+ol > li:hover > a
+{
+	color: red;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li > ul >li
+{
+	background-color: #111111;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751B1B;
+}
+
+ol > li > ul >li:hover
+{
+	background-color: #000000;
+}
+
+ol > li > ul >li:hover > a
+{
+	color: red;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.jpg") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+
+.tytul
+{
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	width: 814px;
+	font-size: 25px;
+	background-color: #222222; 
+	padding-left: 4px;
+	padding-right: 4px;
+	opacity: 0.9;
+}
+
+#footer
+{
+	text-align: center;
+	color: red;
+	background: url(img/tlo.png);
+	margin-bottom: 10px;
+	font-size: 20px;
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	height: 45px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ED9B0C;
+}
+
+a:visited
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FFBD2E;
+}
+
+h2
+{
+	margin-top: 10px;
+}
+
+th, td
+{
+	padding: 10px;
+	border: 1px solid #CCC;
+}
+
+table
+{
+	text-align: center;
+	display: block;
+}
+
+.glowa
+{
+	color: red;
+}
+
+.icon-facebook-rect
+{
+	color: #3b5998;
+}
+
+.icon-facebook-rect:hover
+{
+	color: #4A6999;
+}
+
+.icon-twitter-bird
+{
+	color: #00aced;
+}
+
+.icon-twitter-bird:hover
+{
+	color: #11BDEE;
+}
+
+.icon-ok-outline
+{
+	color: #AAA;
+}
+
+.icon-ok-outline:hover
+{
+	color: #FFF;
+}
